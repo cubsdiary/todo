@@ -1,6 +1,6 @@
 <template>
   <div class="div">
-    hellow world
+    hellow world!asfsafasdfadasfdasfas
   </div>
 </template>
 
@@ -9,7 +9,7 @@
   }
 </script>
 
-<style scoped lang="stylus">
+<style lang="stylus">
   .div
     color: red
 </style>
