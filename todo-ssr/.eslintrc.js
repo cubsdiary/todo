@@ -4,5 +4,8 @@ module.exports = {
   plugins: [
     'html'
   ],
-  parser: 'babel-eslint'
+  parser: 'babel-eslint',
+  'rules': {
+    'no-new': 'off'
+  }
 }
