@@ -65,10 +65,10 @@ export default {
   appearance: none;
   outline none
   &:after{
-    content url('../common/images/round.svg')
+    content url('../../common/images/round.svg')
   }
   &:checked:after{
-    content url('../common/images/done.svg')
+    content url('../../common/images/done.svg')
   }
 }
 .destory{
