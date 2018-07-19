@@ -1,12 +1,12 @@
 import '../common/stylus/footer.styl'
 
 export default {
-  data() {
+  data () {
     return {
       author: 'VUE SSR JSX  by cubsdiary.com'
     }
   },
-  render() {
+  render () {
     return (
       <div id="footer">
         <span>{this.author}</span>
