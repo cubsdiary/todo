@@ -25,7 +25,13 @@
   },
   "homepage": "https://github.com/cubsdiary/todo#readme",
   "dependencies": {
-    "vue": "^2.5.13"
+    "axios": "^0.18.0",
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vue-server-renderer": "^2.5.16",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.0",
@@ -36,8 +42,8 @@
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0",
-    "css-loader": "^1.0.0",
     "cross-env": "5.1.3",
+    "css-loader": "^1.0.0",
     "eslint": "^4.10.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-loader": "^2.0.0",
@@ -50,6 +56,7 @@
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^0.14.3",
+    "memory-fs": "^0.4.1",
     "postcss-loader": "^2.1.6",
     "rimraf": "^2.6.2",
     "style-loader": "^0.21.0",
